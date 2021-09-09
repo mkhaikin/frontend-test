@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1> App Front Base</h1>
+        <h1> Front</h1>
         <form onSubmit={submit}>
           <input
             filename={file} 
