@@ -11,7 +11,7 @@ function App() {
     const data = new FormData()
     data.append('image', file)
     data.append('description', description)
-    await axios.post('http://localhost:8080/posts', data).then(response=>{
+    await axios.post('https://expressbackend-test.herokuapp.com/posts', data).then(response=>{
       console.log(response)
     })
     
