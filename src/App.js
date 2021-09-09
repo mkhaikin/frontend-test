@@ -12,6 +12,7 @@ function App() {
     const data = 'Hello!'
     data.append('image', file)
     data.append('description', description)
+    console.log("Start Post")
     await axios.post('https://expressbackend-test.herokuapp.com/posts', data).then(response=>{
       console.log(response)
     }).catch(error => {
