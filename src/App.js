@@ -9,7 +9,6 @@ function App() {
   const submit = async event =>{
     event.preventDefault()
     //const data = new FormData()
-    const data = 'Hello!'
     //data.append('image', file)
     //data.append('description', description)
     console.log("Start Post")
