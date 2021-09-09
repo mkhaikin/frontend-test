@@ -10,8 +10,8 @@ function App() {
     event.preventDefault()
     //const data = new FormData()
     const data = 'Hello!'
-    data.append('image', file)
-    data.append('description', description)
+    //data.append('image', file)
+    //data.append('description', description)
     console.log("Start Post")
     await axios.post('https://expressbackend-test.herokuapp.com/posts', {message:'Hello'}).then(response=>{
       console.log(response)
