@@ -13,7 +13,7 @@ function App() {
     data.append('image', file)
     data.append('description', description)
     console.log("Start Post")
-    await axios.post('https://expressbackend-test.herokuapp.com/posts', data).then(response=>{
+    await axios.post('https://expressbackend-test.herokuapp.com/posts', {'Hello'}).then(response=>{
       console.log(response)
     }).catch(error => {
         console.log(error.response.data.error)
